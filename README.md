@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 python -m streamlit run app.py
 
-##**How It Works**
+## **How It Works**
 
 -  Load Notes → notes.txt is split into chunks and embedded using HuggingFace embeddings.
 
@@ -74,7 +74,7 @@ python -m streamlit run app.py
 
 - Generated answer: “The activist is being taken to Jodhpur.”
 
-##**Dependencies**
+## **Dependencies**
 
 - Python ≥ 3.12
 
@@ -88,7 +88,7 @@ python -m streamlit run app.py
 
 - Flan-T5
 
-##**License**
+## **License**
 
 MIT License
 
