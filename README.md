@@ -53,41 +53,41 @@ pip install -r requirements.txt
 
 python -m streamlit run app.py
 
-How It Works
+**How It Works**
 
 -  Load Notes → notes.txt is split into chunks and embedded using HuggingFace embeddings.
 
 -  Store in FAISS → all chunks are stored in a vector database for similarity search.
 
-Ask a Question → user input is converted to embedding and matched with top-k relevant chunks.
+- Ask a Question → user input is converted to embedding and matched with top-k relevant chunks.
 
-Generate Answer → Flan-T5 uses the retrieved chunks as context to generate an answer.
+- Generate Answer → Flan-T5 uses the retrieved chunks as context to generate an answer.
 
-Example
+**Example**
 
-Notes content: Activist is being taken to Jodhpur. Internet services suspended, curfew continues in Leh.
+- Notes content: Activist is being taken to Jodhpur. Internet services suspended, curfew continues in Leh.
 
-Question: “Where is the activist being taken?”
+- Question: “Where is the activist being taken?”
 
-Retrieved chunks: “Activist is being taken to Jodhpur.”
+- Retrieved chunks: “Activist is being taken to Jodhpur.”
 
-Generated answer: “The activist is being taken to Jodhpur.”
+- Generated answer: “The activist is being taken to Jodhpur.”
 
-Dependencies
+**Dependencies**
 
-Python ≥ 3.12
+- Python ≥ 3.12
 
-Streamlit
+- Streamlit
 
-LangChain
+- LangChain
 
-HuggingFace Transformers
+- HuggingFace Transformers
 
-FAISS
+- FAISS
 
-Flan-T5
+- Flan-T5
 
-License
+**License**
 
 MIT License
 
