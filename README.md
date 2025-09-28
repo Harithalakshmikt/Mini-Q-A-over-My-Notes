@@ -21,17 +21,18 @@ Live Streamlit demo: [https://mini-q-a-over-my-notes-yonjq535fdrp4qgiirsoyo.stre
 ---
 
 ## **Folder Structure**
-
+```
 Mini-Q-A-over-My-Notes/
-├─ mini_rag/ # Backend modules
-│ ├─ init.py
-│ ├─ embeddings_store.py
-│ ├─ flan_generator.py
-│ └─ rag_service.py
+├─ mini_rag/               # Backend modules
+│  ├─ __init__.py
+│  ├─ embeddings_store.py
+│  ├─ flan_generator.py
+│  └─ rag_service.py
 ├─ data/
-│ └─ notes.txt # Your knowledge base
-├─ app.py # Streamlit UI
-└─ requirements.txt # Dependencies
+│  └─ notes.txt            # Your knowledge base
+├─ app.py                  # Streamlit UI
+└─ requirements.txt        # Dependencies
+```
 
 
 ---
