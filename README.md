@@ -55,9 +55,9 @@ python -m streamlit run app.py
 
 How It Works
 
--` Load Notes → notes.txt is split into chunks and embedded using HuggingFace embeddings.
+-  Load Notes → notes.txt is split into chunks and embedded using HuggingFace embeddings.
 
--` Store in FAISS → all chunks are stored in a vector database for similarity search.
+-  Store in FAISS → all chunks are stored in a vector database for similarity search.
 
 Ask a Question → user input is converted to embedding and matched with top-k relevant chunks.
 
