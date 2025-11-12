@@ -87,6 +87,8 @@ python -m streamlit run app.py
 - FAISS
 
 - Flan-T5
+  
+- PyTorch
 
 ## **License**
 
