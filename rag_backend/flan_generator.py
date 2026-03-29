@@ -7,5 +7,10 @@ class FlanGenerator:
         self.pipe = pipeline("text-generation", model=model, tokenizer=tok, max_new_tokens=max_new_tokens)
 
     def generate(self, context: str, question: str) -> str:
-        prompt = f"Answer using the context below.\nContext:\n{context}\n\nQuestion: {question}"
+        prompt =  f"""
+You are a helpful assistant.
+
+Answer the question clearly and concisely using ONLY the given context.
+
+If the answer is not in the context, say "I don't know".\nContext:\n{context}\n\nQuestion: {question}"
         return self.pipe(prompt)[0]["generated_text"]
